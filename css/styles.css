@@ -3,8 +3,9 @@
 }
 
 body{
-  background-color: #00ffc7;
+  background-image: url("../img/background.jpg");
   text-align: center;
+  background-repeat: round;
 }
 
 .questions{
@@ -25,7 +26,7 @@ label{
 
 .label{
   padding-left: 25px;
-  color: blue;
+  color: orange;
   font-size: 20px;
 }
 
