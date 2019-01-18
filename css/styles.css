@@ -1,3 +1,50 @@
 .answer{
   display: none;
 }
+
+body{
+  background-color: #00ffc7;
+  text-align: center;
+}
+
+.questions{
+  margin-top: 50px;
+}
+
+p{
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: #c89bff;
+  margin: 0 25% 0 25%;
+  border: 5px ridge #8e32ff;
+}
+
+label{
+  font-weight: lighter;
+}
+
+.label{
+  padding-left: 25px;
+  color: blue;
+  font-size: 20px;
+}
+
+input:hover{
+  cursor: pointer;
+}
+
+.jumbotron {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #ff7fbd;
+  border: 5px ridge #c211d6;
+}
+
+.button{
+  padding-top: 25px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}

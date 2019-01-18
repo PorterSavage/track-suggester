@@ -9,8 +9,10 @@
     <title>Track Suggester</title>
   </head>
   <body>
-    <h1>Epicodus Track Suggester</h1>
     <div class="container">
+      <div class="jumbotron">
+        <h1>Epicodus Track Suggester</h1>
+      </div>
       <div class="answer" id="java">
         <p>I think the best Epicodus track for you would be Java/Android!</p>
       </div>
@@ -21,60 +23,74 @@
         <p>I think the best Epicodus track for you would be C#/.NET!</p>
       </div>
       <form id="form">
-        <p>What OS do you prefer, Windows or IOS?</p>
-        <label>
-          <input type="radio" name="os" value="windows">
-          Windows
-        </label>
-        <label>
-          <input type="radio" name="os" value="ios">
-          IOS
-        </label>
-        <p>Do you prefer Front End or Back End?</p>
-        <label>
-          <input type="radio" name="end" value="front">
-          Front End
-        </label>
-        <label>
-          <input type="radio" name="end" value="back">
-          Back End
-        </label>
-        <label>
-          <input type="radio" name="end" value="neither">
-          I don't know.
-        </label>
-        <p>What do you want to create?</p>
-        <label>
-          <input type="radio" name="create" value="games">
-          Games
-        </label>
-        <label>
-          <input type="radio" name="create" value="apps">
-          Apps
-        </label>
-        <label>
-          <input type="radio" name="create" value="webpages">
-          Webpages
-        </label>
-        <p>How would you build a dining room table?</p>
-        <label>
-          <input type="radio" name="build" value="scratch">
-          From scratch
-        </label>
-        <label>
-          <input type="radio" name="build" value="ikea">
-          Buy one from Ikea
-        </label>
-        <p>Do you prefer Art or math?</p>
-        <label>
-          <input type="radio" name="subject" value="art">
-          Art
-        </label>
-        <label>
-          <input type="radio" name="subject" value="math">
-          Math
-        </label>
-        <button type="submit">Submit</button>
+        <div class="questions">
+          <p>What OS do you prefer, Windows or IOS?</p>
+          <label class="label">
+            <input type="radio" name="os" value="windows">
+            Windows
+          </label>
+          <label class="label">
+            <input type="radio" name="os" value="ios">
+            IOS
+          </label>
+        </div>
+        <div class="questions">
+          <p>Do you prefer Front End or Back End?</p>
+          <label class="label">
+            <input type="radio" name="end" value="front">
+            Front End
+          </label>
+          <label class="label">
+            <input type="radio" name="end" value="back">
+            Back End
+          </label>
+          <label class="label">
+            <input type="radio" name="end" value="neither">
+            I don't know.
+          </label>
+        </div>
+        <div class="questions">
+          <p>What do you want to create?</p>
+          <label class="label">
+            <input type="radio" name="create" value="games">
+            Games
+          </label>
+          <label class="label">
+            <input type="radio" name="create" value="apps">
+            Apps
+          </label>
+          <label class="label">
+            <input type="radio" name="create" value="webpages">
+            Webpages
+          </label>
+        </div>
+        <div class="questions">
+          <p>How would you build a dining room table?</p>
+          <label class="label">
+            <input type="radio" name="build" value="scratch">
+            From scratch
+          </label>
+          <label class="label">
+            <input type="radio" name="build" value="ikea">
+            Buy one from Ikea
+          </label>
+        </div>
+        <div class="questions">
+          <p>Do you prefer Art or math?</p>
+          <label class="label">
+            <input type="radio" name="subject" value="art">
+            Art
+          </label>
+          <label class="label">
+            <input type="radio" name="subject" value="math">
+            Math
+          </label>
+        </div>
+        <br>
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+        <br>
       </form>
     </div>
   </body>
